@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Recorrer cada canal manualmente
 
                // for (var i = 0; i < channels.length; i++) {
-                    var channel = channels[7];
+                    var channel = channels[8];
                     console.log('Canal ' + (0 + 1) + ':');
                     console.log('Nombre: ' + channel.name);
                     console.log('URL: ' + channel.url);
