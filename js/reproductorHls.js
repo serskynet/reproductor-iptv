@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var cambiarCanal3 = document.getElementById('cambiarCanal3');
     var cambiarCanal4 = document.getElementById('cambiarCanal4');
 
-    var canal1  =   7;
+    var canal1  =   5;
     var canal2  =   8;
     var canal3  =   9;
     var canal4  =   10;
