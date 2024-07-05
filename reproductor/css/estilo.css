@@ -1,0 +1,127 @@
+/* styles.css */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+#video-container:hover {
+    background-color: #00b7ff8c; /* Cambia el color al pasar el mouse */
+}
+
+video {
+    width: 100%;
+}
+
+#video-upload {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+label:hover {
+    background-color: #78b9ff; /* Cambia el color al pasar el mouse */
+}
+
+#video-list {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}
+
+::cue {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #4f5496;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*estilo del menu para abrir el menu despegale*/
+#opciones{
+    background-color: #2471ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.bienvenido{
+    background-color: #15aab4;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20%;
+    font-size: 40px;
+}
+/* contenedor del menu depegble*/
+
+.dropbtn{
+    position: relative;
+    display: inline-block;
+}
+
+/*contenido del menu despegable*/
+.dropdown-content a{
+
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px;
+     
+}
+
+
+/* links dentor del menu*/
+.dropdown-content a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration-color: #ff0000;
+    display: block;
+}
+
+/* cambiar el cursor cuando pasa por encima*/
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+/* muestra el menu al hacer click en el boton despegable*/
+.show {display: block;}
+
