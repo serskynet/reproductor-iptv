@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>full streaming</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <style>
+        /* Estilos adicionales aquí si es necesario */
+    </style>
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/7.14.3/video.js"></script>
+
+
+</head>
+<body>
+    <h1>full streaming</h1>
+
+    <div id="video-container">
+        <video id="myVideo" class="video-js vjs-default-skin" controls preload="auto">
+
+            <source src="" type="application/x-mpegURL">
+    
+        </video>
+        
+    </div>
+
+    <label for="urlInput">Ingresa la URL de la lista M3U:</label>
+    <input type="text" id="urlInput">
+    <button id="submitButton">Enviar</button>
+
+    <!-- Menú desplegable -->
+    <div id="menu_desplegable"></div>
+    <script src="./menu.js"></script>
+
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>logo</th>
+                    <th>canales</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="channel.logoUrl" alt=""></td>
+                    <td>Dato 2</td>
+                    
+                </tr>
+                <!-- Agregar más filas según sea necesario -->
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p>Política de Privacidad | Creado por: Sergio Zapata y Moisés Méndez | © 2023 Todos los derechos reservados</p>
+    </footer>
+
+    <script src="./js/reproductorHls.js"></script>
+</body>
+</html>
