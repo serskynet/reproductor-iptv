@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var canal8  = 'https://seo.tv.bo/tv/SEOTV4_HD.m3u8';
     var canal9  = 'https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8';
     var canal10 = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8';
-    var canal11 = 'https://stmv1.srvif.com/animetv/animetv/playlist.m3u8';
+    var canal11 = 'https://stmv1.srvif.com/animetv/animetv/chunklist_w1769730028.m3u8';
 
 
     cambiarCanal0.addEventListener('click', function() {
