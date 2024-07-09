@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var cambiarCanal8 = document.getElementById('cambiarCanal8');
     var cambiarCanal9 = document.getElementById('cambiarCanal9');
     var cambiarCanal10 = document.getElementById('cambiarCanal10');
+     var cambiarCanal11 = document.getElementById('cambiarCanal11');
 
     var canal0 =  'https://hls.tdtcolombiana.com/static/streaming-playlists/hls/b3fd8a3a-de8a-4faf-b4c9-d111db65a049/0.m3u8'
     var canal1  = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8'  
@@ -25,6 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var canal8  = 'https://seo.tv.bo/tv/SEOTV4_HD.m3u8';
     var canal9  = 'https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8';
     var canal10 = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8';
+    var canal11 = 'http://tvlatino.live:8080/Martv1971/G5cSzPMeRUuH/76703.m3u8';
+
 
     cambiarCanal0.addEventListener('click', function() {
 
@@ -125,7 +128,15 @@ document.addEventListener('DOMContentLoaded', function() {
         reproductor(cambiar);
 
     });
-    
+
+       cambiarCanal11.addEventListener('click', function() {
+
+        var cambiar = canal11;
+
+        console.log("canal".cambiar);
+        reproductor(cambiar);
+
+    });
 
    
 });
