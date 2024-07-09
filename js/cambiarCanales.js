@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var cambiarCanal9 = document.getElementById('cambiarCanal9');
     var cambiarCanal10 = document.getElementById('cambiarCanal10');
      var cambiarCanal11 = document.getElementById('cambiarCanal11');
-     var cambiarCanal12 = document.getElementById('cambiarCanal11');
+     var cambiarCanal12 = document.getElementById('cambiarCanal12');
 
     var canal0 =  'https://hls.tdtcolombiana.com/static/streaming-playlists/hls/b3fd8a3a-de8a-4faf-b4c9-d111db65a049/0.m3u8'
     var canal1  = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8'  
