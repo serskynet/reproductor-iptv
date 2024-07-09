@@ -14,22 +14,22 @@ document.addEventListener('DOMContentLoaded', function() {
     var cambiarCanal10 = document.getElementById('cambiarCanal10');
 
 
-    var canal1  =   28;
-    var canal2  =   139;
-    var canal3  =   9;
-    var canal4  =   82;
-    var canal5  =   126;
-    var canal6  =   132;
-    var canal7  =   134;
-    var canal8  =   143;
-    var canal9  =   19;
-    var canal10  =   7;
+    var canal1  = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8'  
+    var canal2  = 'https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8';
+    var canal3  = 'https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8';
+    var canal4  = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C022/022/playlist.m3u8';
+    var canal5  = 'https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8';
+    var canal6  = 'https://latv-rcn-xtra-1-mx.tcl.wurl.tv/playlist.m3u8';
+    var canal7  = 'https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8';
+    var canal8  = 'https://seo.tv.bo/tv/SEOTV4_HD.m3u8';
+    var canal9  = 'https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8';
+    var canal10 = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8';
 
     cambiarCanal1.addEventListener('click', function() {
 
         var cambiar = canal1;
 
-        console.log("canal".cambiar);
+        console.log("canal: ");
         reproductor(cambiar);
 
     });
@@ -119,3 +119,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
    
 });
+
