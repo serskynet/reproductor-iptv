@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
      var cambiarCanal11 = document.getElementById('cambiarCanal11');
      var cambiarCanal12 = document.getElementById('cambiarCanal12');
 
-    var canal0 =  'https://mdstrm.com/live-stream-playlist/574463697b9817cf0886fc17.m3u8'
+    var canal0 =  'https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8'
     var canal1  = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8'  
     var canal2  = 'https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8';
     var canal3  = 'https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8';
