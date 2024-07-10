@@ -60,7 +60,7 @@ body {
 
 #myVideo{
     width: 100%;
-    height: 102%;
+    height: 102%; 
 }
 
 .tituloh2 {
@@ -79,4 +79,78 @@ footer {
     text-align: center;
     color: #999;
     font-size: 12px;
+}
+
+@media all and (max-width:760px){
+    .header-container {
+        padding: 10px;
+    }
+    
+    .logo {
+        max-height: 40px;
+    }
+    
+    .titulo {
+        font-size: 6vh; 
+    }
+
+    .contador {
+        max-height: 30px; 
+    }
+    
+
+    .videoContainer{
+        height: 60vh;
+    }
+    
+    .tituloh2 {
+        font-size: 4vh; 
+    }
+    
+}
+
+
+@media all and (max-width:480px){
+
+    .logo {
+        max-height: 30px;
+    }
+    
+    .titulo {
+        font-size: 4vh; 
+    }
+
+    .contador {
+        max-height: 25px; 
+    }
+    
+
+    .videoContainer{
+        height: 50vh;
+    }
+    
+    .tituloh2 {
+        font-size: 3vh; 
+    }
+  
+}
+
+
+@media all and (max-width:312px){
+
+    .logo {
+        max-height: 20px;
+    }
+    
+    .titulo {
+        font-size: 3vh; 
+    }
+
+    .contador {
+        max-height: 20px; 
+    }
+    
+    .tituloh2 {
+        font-size: 2vh; 
+    }
 }
