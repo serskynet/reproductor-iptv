@@ -1,62 +1,80 @@
 
-
 /* Caja principal */
-.containerCanales {
-
-    background-color: #EBF4F6 ;
+.containerCanales, .containerh2 {
+    background: rgb(203,216,255);
+    background: linear-gradient(90deg, rgba(203,216,255,1) 0%, rgba(235,244,246,1) 100%);
     display: flex;
     flex-direction: row; /* la dirección de las cajas en este por defecto horizontal  */
     flex-wrap: wrap; /* para posicionar las cajas ajustandose al tamaño de la pantalla  */
-    justify-content: center; /*para centrar las cajas */
-
+    justify-content: space-around; /*para centrar las cajas */
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(128,126,128,1);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(128,126,128,1);
+    box-shadow: 3px 4px 5px 0px rgba(128,126,128,1);
 }
+
 .tv-box {
-    
-    background: linear-gradient( rgb(172, 169, 169), rgb(117, 116, 116), rgb(24, 24, 24));
-    color: white;
-    width: 220px;
-    max-height: 260px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    border: 5px solid rgb(0, 0, 0);/* Línea alrededor de la caja */
+    box-sizing: border-box;
+    width: 180px;
+    height: 200px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+  
+.tv-box button {
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #37B7C3 0%, #088395 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 7px 50px;
+    border-radius: 0.3em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+.tv-box button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #036270;
+    transform: translateY(-0.1em);
+}
+  
+.tv-box button:active {
+    box-shadow: inset 0px 0.1em 0.6em #036270;
+    transform: translateY(0em);
 }
 
 /* Estilos para el encabezado */
 .tv-box h3 {
-    margin: 0;
-    font-size: 14px;
-    background-color: #2a2a2a;
-    padding: 5px;
+    padding: 7px 40px;
+    font-size: 16px;
+    background-color: #c0bfbfdc;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
-/* Estilos para la imagen */
+
 .tv-box img {
-    max-width: 100px;
-    margin: 15px 0;
+    width: 64px;
 }
 
-.tv-box h3:hover
-{
-    background: linear-gradient( rgb(0, 0, 0), rgb(37, 40, 44), rgb(116, 124, 131));
-}
-
-/* Estilos para el botón */
-.tv-box button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-/* Estilos para el botón al pasar el cursor */
-.tv-box button:hover {
-    background: linear-gradient( rgb(4, 55, 167), rgb(53, 118, 204), rgb(83, 154, 212));
+.containerh2{
+    padding-bottom: 5px;
 }
