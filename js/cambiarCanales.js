@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var canal10 = 'https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8';
     var canal11 = 'https://stmv1.srvif.com/animetv/animetv/chunklist_w1769730028.m3u8';
      var canal12 = 'https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8';
-      var canal13 = 'https://jactvpro.xyz/auth/10300.m3u8?token=FDq4e0T01ywUvVNQsMSTRIDInkJKaZLFFXWuO3ByFnqoR9B0FniHWHIMQPQigc5ui85MtRdxlate4LLHD6AkZLFzaiFUMMixXqMZVupfNmqtwjC6G2qfDai_qAwwrhbXD2eBPFNIlus5aHntFiQMvb_S64mOINDCBbG3G1eGVxRJCkrS8Rh442HiVXiED-T3lc0tvj-wi3pMepwnnOcg24_heBqB9KGMrZST3ALTsdVk9OTn0SvIeQrbe4yGoQ8Obdpy3zMd12zqBRZVtO-qXV9sgpk9n4dO47_xOyZlsdSVOey5Yn8RL1ydaqnoWOeQ-xK1NYinsNjOF22XWAVgeT2-fLxnl1gf6Oeaq7z_RyPxK5jj4O35d2IYCeqLhmjSW6YM3LTAk6NM-_BGJHZGgF6c1JsgjtZEps5OpjCQTZ2U7Yuvs3p8OREziWQG9g1vTkd6GQ6uz55DMVEyY9WeC44oYakITV6zETNd2z2Zn9HYKsMDVr_rifsNA9SxQSFIOhOsO2YOqGFGARB0UPM4lZTh9o_3Rm84_geoOzJxYreVzPpNBMQhYK7xF_ixooXfEDZZLAxaWl1-UhFvgmZt9LL58j-59cFqJor-aGmuV6V-tP4Pr7vcsb4IS0ncBtBM';
+      var canal13 = 'http://168.181.122.234:8000/play/a038/index.m3u8';
 
 
     cambiarCanal0.addEventListener('click', function() {
